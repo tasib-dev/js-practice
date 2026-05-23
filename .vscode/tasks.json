@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run C",
+            "type": "shell",
+            "command": "clear && gcc \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" && \"${fileDirname}/${fileBasenameNoExtension}\"",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run JS",
+            "type": "shell",
+            "command": "clear && node \"${file}\"",
+            "problemMatcher": []
+        }
+    ]
+}
