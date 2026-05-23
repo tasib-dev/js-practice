@@ -12,3 +12,13 @@ const mul = (a, b) => {
 }
 
 console.log(`the product is ${mul(2, 3)}`);
+
+const diff = (a, b) => a - b;
+console.log(`the difference is ${diff(1, 2)}`);
+
+//vvv
+const greet = function() {
+    console.log("Hello");
+};
+greet();
+//^^^in js , functions are treated like values;
