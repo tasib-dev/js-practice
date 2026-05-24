@@ -1,7 +1,7 @@
-console.log("start");
+console.log("Loading...");
 
 setTimeout(() => {
-    console.log("inside timeout");
-}, 2000);
+    console.log("Completed");
+}, 2000); 
 
-console.log("END");
+console.log("Please wait...");
